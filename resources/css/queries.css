@@ -1,0 +1,203 @@
+@media only screen and (max-width: 1200px){
+    .header-text-box{
+        padding-left: 200px;   
+    }
+    .contact-section iframe{
+        width:500px;
+    }
+    .service-box-container p{
+        padding:0 2%;
+    }
+    /* .footer-div-heading{padding:0 10%;} */
+    /* .company-short-des p{
+        padding:0 10%;
+    }
+    .newsletter-box p{
+        padding:0 10%;
+    } */
+    .newsletter-box-container,.company-short-des-container,.company-icon-box-container{
+        padding:0 10%;
+    }
+    
+
+}
+
+@media only screen and (max-width:1023px){
+    *{
+        font-size:16px;
+    }
+    .employee-details-container .employee-image img{
+        width: 170px;
+        height: 270px;
+    }
+    .contact-section .contact-container{
+        width: 40%;
+        padding-left: 20px;
+    }
+    .contact-section iframe{
+        width:350px;
+    }
+    body .partner-section{
+        height: 25vh;
+    }
+    .our-team-section .employee-social-media a{
+        padding-right: 3px;
+    }
+    .company-icon-box-container .company-address-details-con{
+        font-size:70%;
+    }
+    /* mobile navigation */
+    .main-nav{display: none;}
+     header nav .mobile-nav-icon{display: inline-block;}
+     
+     header nav .middle-row .main-nav{
+         float:left;
+         background:#334ec0;
+         position: relative;
+         z-index: 1000;
+    }
+    header nav .middle-row .main-nav li{
+    display:block;
+    z-index: 10000;
+    }
+    header nav .main-nav li a:link,
+    header nav .main-nav li a:visited{
+        display: block;
+        border:0;
+        padding:10px 0;
+        padding-right: 60px;
+        font-size: 100%;
+        z-index: 1000000;
+        color:white;
+        font-weight: 500;
+        
+    }
+
+    .sticky .main-nav{margin-top: 10px;}
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited{padding: 10px 0;}
+    .sticky .mobile-icon{color:black; margin-top: 20px;}
+    .sticky .mobile-nav-icon{margin-top:15px;}
+}
+
+@media only screen and (max-width:767px){
+    *{
+        font-size:13px;
+    }
+    .header-text-box{
+        padding-left: 350px;   
+    }
+    .header-text-box h3{
+        font-size:70%;
+    }
+    .middle-row{
+        padding:0,4%;
+    }
+    .middle-row{
+        margin:0 40px;
+    }
+    body .about-us{
+        height: 180vh;
+    }
+    body .service-section{
+        height: 180vh;
+    }
+    body .our-team-section{
+        height: 100vh;
+    }
+    .employee-details-container .employee-image img{
+        width: 100px;
+        height: 200px;
+    }
+    body .our-team-section .middle-row {
+        padding: 0 4%;
+    }
+    body .service-section .service-section-bg{
+        padding:0 4%;
+    }
+    body .testimonial-section{
+        height: 200vh;
+    }
+    .testimonial-section .people-comments-container{
+        flex-flow: column;
+    }
+    /* .testimonial-section .people-comment-box{
+        height: 750px;
+    } */
+    .testimonial-section .people-comments-container .people-comment-box .people-comments {
+        height: 50px;
+    }
+    .testimonial-section .people-comments-container .people-comment-box .people-image{
+        padding-top: 0;
+        padding-bottom: 5px;
+    }
+    .testimonial-section .people-comments-container .people-comment-box .people-image img{
+        width:80px;
+        height: 80px;
+    }
+    body .contact-section{
+        height: 160vh;
+    }
+    body .contact-section .span-1-of-2{
+        width: 100%;
+    }
+    body .contact-section .contact-section-all-container{
+        padding: 0 4%;
+    }
+    /* .company-icon-box-container .company-address-details-con{
+        font-size:10%;
+    } */
+    .contact-section .contact-container{
+        width: 40%;
+        padding-left: 0px;
+    }
+    .company-icon-box-container .company-address-details-con .company-icon{
+        margin-right: 0px;
+    }
+    .company-icon-box-container .company-address-details-con .first-icon{
+        display: none;
+    }
+    .footer-section .newsletter-box .newsletter-box-container .newsletter-input{
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width:480px){
+    .header-text-box{
+        padding-left: 420px;   
+    }
+    .header-text-box h3{
+        font-size:60%;
+    }
+    body .our-team-section{
+        height: 220vh;
+    }
+    body .partner-section{text-align: center;height: 70vh;}
+    body .partner-section img{
+        width: 20%;
+    }
+    body .footer-section{
+        background:#334ec0;
+        height: 90vh;
+        
+        
+    }
+    body .footer-section .footer-container .col{
+        margin-bottom: 8px;
+    }
+    .company-icon-box-container .company-address-details-con .first-icon{
+        display: inline-block;
+    }
+    .contact-section iframe{
+        width:250px;
+        padding-bottom: 20px;
+    }
+    body .about-us{
+        height: 130vh;
+    }
+    .employee-details-container .employee-image img{
+        width: 150px;
+        height: 250px;
+    }
+}
